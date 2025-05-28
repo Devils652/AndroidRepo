@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "786273686108",
+    "project_id": "recordatorio-lo0tbg",
+    "storage_bucket": "recordatorio-lo0tbg.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786273686108:android:3e95a7fdcc83661c260c99",
+        "android_client_info": {
+          "package_name": "com.company.recordatorio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR9CM5SQ8spCCNXwM1wiSqKr_sxKA87CE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786273686108:android:9f467ebc0cddce75260c99",
+        "android_client_info": {
+          "package_name": "com.mycompany.recordatorio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR9CM5SQ8spCCNXwM1wiSqKr_sxKA87CE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
