@@ -45,7 +45,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: Color(0xFFD1D1D1),
         appBar: AppBar(
           backgroundColor: FlutterFlowTheme.of(context).primary,
           automaticallyImplyLeading: false,
@@ -116,8 +116,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
                           width: 375.49,
                           height: 646.3,
                           decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context)
-                                .secondaryBackground,
+                            color: Color(0xFFD1D1D1),
                             borderRadius: BorderRadius.circular(18.0),
                           ),
                           child: Column(
@@ -146,6 +145,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyMedium
                                                   .fontStyle,
+                                          decoration: TextDecoration.underline,
                                         ),
                                   ),
                                 ),
@@ -192,6 +192,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
                                       fontStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
+                                      decoration: TextDecoration.underline,
                                     ),
                               ),
                               Padding(
@@ -233,6 +234,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
                                       fontStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
+                                      decoration: TextDecoration.underline,
                                     ),
                               ),
                               Padding(

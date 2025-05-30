@@ -998,7 +998,6 @@ class _AgendarElectrcistaWidgetState extends State<AgendarElectrcistaWidget> {
                     text: 'Agendar Electricista',
                     icon: Icon(
                       Icons.flash_on,
-                      color: Color(0xFF1A1A2E),
                       size: 20.0,
                     ),
                     options: FFButtonOptions(
@@ -1008,6 +1007,7 @@ class _AgendarElectrcistaWidgetState extends State<AgendarElectrcistaWidget> {
                           EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
                       iconPadding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                      iconColor: Color(0xFF1A1A2E),
                       color: Color(0xFFFFC107),
                       textStyle:
                           FlutterFlowTheme.of(context).titleSmall.override(

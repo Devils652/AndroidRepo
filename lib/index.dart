@@ -20,3 +20,4 @@ export '/electrico/menu_electrico/menu_electrico_widget.dart'
 export '/electrico/tablas_electrico/tablas_electrico_widget.dart'
     show TablasElectricoWidget;
 export '/inicio/inicio/inicio_widget.dart' show InicioWidget;
+export '/fontaneria/mapa/mapa_widget.dart' show MapaWidget;

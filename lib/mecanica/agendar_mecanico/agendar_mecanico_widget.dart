@@ -1009,7 +1009,6 @@ class _AgendarMecanicoWidgetState extends State<AgendarMecanicoWidget> {
                       text: 'Agendar Cita',
                       icon: Icon(
                         Icons.settings_sharp,
-                        color: Colors.white,
                         size: 24.0,
                       ),
                       options: FFButtonOptions(
@@ -1019,6 +1018,7 @@ class _AgendarMecanicoWidgetState extends State<AgendarMecanicoWidget> {
                             24.0, 0.0, 24.0, 0.0),
                         iconPadding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 12.0, 0.0),
+                        iconColor: Colors.white,
                         color: Color(0xFFE74C3C),
                         textStyle:
                             FlutterFlowTheme.of(context).titleSmall.override(

@@ -176,7 +176,6 @@ class _InicioWidgetState extends State<InicioWidget> {
                       text: 'Explorar servicios',
                       icon: Icon(
                         Icons.arrow_forward,
-                        color: Colors.white,
                         size: 24.0,
                       ),
                       options: FFButtonOptions(
@@ -185,6 +184,7 @@ class _InicioWidgetState extends State<InicioWidget> {
                         padding: EdgeInsets.all(8.0),
                         iconPadding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 12.0, 0.0),
+                        iconColor: Colors.white,
                         color: Color(0xFF2E86DE),
                         textStyle:
                             FlutterFlowTheme.of(context).titleMedium.override(

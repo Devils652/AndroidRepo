@@ -1178,7 +1178,6 @@ class _AgendarFontaneriaWidgetState extends State<AgendarFontaneriaWidget> {
                     text: 'Agendar Servicio',
                     icon: Icon(
                       Icons.plumbing,
-                      color: Colors.white,
                       size: 24.0,
                     ),
                     options: FFButtonOptions(
@@ -1188,6 +1187,7 @@ class _AgendarFontaneriaWidgetState extends State<AgendarFontaneriaWidget> {
                           EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
                       iconPadding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                      iconColor: Colors.white,
                       color: Color(0xFF1A5F9C),
                       textStyle:
                           FlutterFlowTheme.of(context).titleSmall.override(

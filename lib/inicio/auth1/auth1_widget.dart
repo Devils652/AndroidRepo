@@ -127,7 +127,7 @@ class _Auth1WidgetState extends State<Auth1Widget>
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
+        backgroundColor: Color(0xFFD1D1D1),
         body: SafeArea(
           top: true,
           child: Row(
@@ -139,7 +139,7 @@ class _Auth1WidgetState extends State<Auth1Widget>
                   width: 100.0,
                   height: double.infinity,
                   decoration: BoxDecoration(
-                    color: FlutterFlowTheme.of(context).secondaryBackground,
+                    color: Color(0xFFD1D1D1),
                   ),
                   alignment: AlignmentDirectional(0.0, -1.0),
                   child: SingleChildScrollView(
@@ -156,8 +156,7 @@ class _Auth1WidgetState extends State<Auth1Widget>
                               maxWidth: 602.0,
                             ),
                             decoration: BoxDecoration(
-                              color: FlutterFlowTheme.of(context)
-                                  .secondaryBackground,
+                              color: Color(0xFFD1D1D1),
                               borderRadius: BorderRadius.only(
                                 bottomLeft: Radius.circular(16.0),
                                 bottomRight: Radius.circular(16.0),
@@ -175,8 +174,7 @@ class _Auth1WidgetState extends State<Auth1Widget>
                             maxWidth: 602.0,
                           ),
                           decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context)
-                                .secondaryBackground,
+                            color: Color(0xFFD1D1D1),
                           ),
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(

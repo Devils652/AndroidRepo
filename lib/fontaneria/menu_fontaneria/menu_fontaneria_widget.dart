@@ -45,7 +45,7 @@ class _MenuFontaneriaWidgetState extends State<MenuFontaneriaWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: Color(0xFFBFBFBF),
         appBar: AppBar(
           backgroundColor: Colors.black,
           automaticallyImplyLeading: false,
@@ -214,6 +214,43 @@ class _MenuFontaneriaWidgetState extends State<MenuFontaneriaWidget> {
                             iconPadding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
                             color: Colors.black,
+                            textStyle: FlutterFlowTheme.of(context)
+                                .titleMedium
+                                .override(
+                                  font: GoogleFonts.interTight(
+                                    fontWeight: FontWeight.w600,
+                                    fontStyle: FlutterFlowTheme.of(context)
+                                        .titleMedium
+                                        .fontStyle,
+                                  ),
+                                  color: FlutterFlowTheme.of(context).info,
+                                  letterSpacing: 0.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontStyle: FlutterFlowTheme.of(context)
+                                      .titleMedium
+                                      .fontStyle,
+                                ),
+                            elevation: 4.0,
+                            borderSide: BorderSide(
+                              color: FlutterFlowTheme.of(context).info,
+                              width: 2.0,
+                            ),
+                            borderRadius: BorderRadius.circular(30.0),
+                          ),
+                        ),
+                        FFButtonWidget(
+                          onPressed: () async {
+                            context.pushNamed(MapaWidget.routeName);
+                          },
+                          text: 'Mapa',
+                          options: FFButtonOptions(
+                            width: 250.0,
+                            height: 60.0,
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                24.0, 16.0, 24.0, 16.0),
+                            iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            color: Color(0xFF5B5B5B),
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleMedium
                                 .override(
